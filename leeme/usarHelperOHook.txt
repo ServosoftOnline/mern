@@ -1,0 +1,11 @@
+DIFERENCIAS ENTRE UN HOOK Y UN HELPER:
+
+Hook:
+    - perfecto cuando quieres reutilizar lógica que interactúa con React y su ciclo de vida.
+    - lógica reactiva y estado.
+
+Helper
+    - perfecto cuando quieres simplemente encapsular una función y no necesitas usar hooks ni estado interno.
+    - No renderiza nada ni tiene JSX.
+    - Se llama desde un componente para devolver datos o realizar cálculos.
+
